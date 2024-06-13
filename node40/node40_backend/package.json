@@ -1,0 +1,34 @@
+{
+  "name": "node40_buoi4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0",
+    "bcrypt": "^5.1.1",
+    "compress-images": "^2.0.5",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^3.3.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "gifsicle": "5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.2",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "pngquant-bin": "6.0.1",
+    "prisma": "^5.11.0",
+    "sequelize": "^6.37.1",
+    "sequelize-auto": "^0.8.8",
+    "socket.io": "^4.7.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "uuid": "^9.0.1"
+  }
+}
